@@ -10,49 +10,26 @@ To migrate to this version, please follow the guide:
 ```
 
 
-# Ethereum JavaScript API
+# ‌هفاثق JavaScript API
 
-[![Join the chat at https://gitter.im/ethereum/web3.js](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/ethereum/web3.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Join the chat at https://gitter.im/bitherhq/web3.js](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/bitherhq/web3.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-This is the Ethereum compatible [JavaScript API](https://github.com/ethereum/wiki/wiki/JavaScript-API)
+This is the Bither compatible
 which implements the [Generic JSON RPC](https://github.com/ethereum/wiki/wiki/JSON-RPC) spec. It's available on npm as a node module, for bower and component as an embeddable js and as a meteor.js package.
 
 [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![dependency status][dep-image]][dep-url] [![dev dependency status][dep-dev-image]][dep-dev-url][![Coverage Status][coveralls-image]][coveralls-url][![Stories in Ready][waffle-image]][waffle-url]
 
-<!-- [![browser support](https://ci.testling.com/ethereum/ethereum.js.png)](https://ci.testling.com/ethereum/ethereum.js) -->
 
-You need to run a local Ethereum node to use this library.
+You need to run a local Bither node to use this library.
 
-[Documentation](https://github.com/ethereum/wiki/wiki/JavaScript-API)
 
 ## Installation
-
-### Node.js
-
-```bash
-npm install web3
-```
 
 ### Meteor.js
 
 ```bash
-meteor add ethereum:web3
+meteor add bitherhq:web3
 ```
-
-### As Browser module
-Bower
-
-```bash
-bower install web3
-```
-
-Component
-
-```bash
-component install ethereum/web3.js
-```
-
-* Include `ethereum.min.js` in your html file. (not required for the meteor package)
 
 ## Usage
 Use the `web3` object directly from global namespace:
@@ -64,7 +41,7 @@ console.log(web3); // {eth: .., shh: ...} // it's here!
 Set a provider (HttpProvider)
 
 ```js
-web3.setProvider(new web3.providers.HttpProvider('http://localhost:8545'));
+web3.setProvider(new web3.providers.HttpProvider('http://localhost:7070'));
 ```
 
 There you go, now you can use it:
