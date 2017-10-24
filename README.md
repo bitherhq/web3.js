@@ -10,7 +10,7 @@ To migrate to this version, please follow the guide:
 ```
 
 
-# ‌هفاثق JavaScript API
+# Bither JavaScript API
 
 [![Join the chat at https://gitter.im/bitherhq/web3.js](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/bitherhq/web3.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
